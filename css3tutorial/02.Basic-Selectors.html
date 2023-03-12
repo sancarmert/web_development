@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Selectors</title>
+<style>
+    /* Tüm H1'leri seç */
+     /* h1{
+        color: red;
+        background: blue;
+    } */
+     /*p{
+        color: red;
+        background: blue;
+    } */
+
+  /*  h1,p{
+        color: red;
+        background: blue;
+    } */
+ /* #logo{
+    color: red;
+    background: blue;
+} */
+ /* .info{
+    color: red;
+    background: blue;
+} */
+ /* #logo, .lead{
+    color: red;
+    background: blue;
+} */
+/* #para1.lead{
+    color: red;
+    background: blue;
+} */
+  /* a{
+    text-decoration: none; linklerin altındaki çizgi kalktı.
+ }
+ */
+/* ul li a{
+    text-decoration: none;
+} */
+ /* .info span{
+    color: red;
+} */
+/* .info .primary{
+    color: rgb(0, 255, 128);
+} */
+*{
+    font-size: 20px;
+}
+</style>
+
+
+</head>
+<body>
+    <header>
+        <h1>Header1</h1>
+        <h1 id="logo">Logo</h1>
+
+        <ul>
+            <li>
+                <a href="#">Contact</a>
+            </li>
+            <li><a href="#">Services</a></li>
+        </ul>
+    </header>
+    <h1>
+        Header2
+    </h1>
+    <p id="para1" class="lead info">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure, rem!
+    </p>
+    <p class="info">
+        Lorem  <span class="primary"> bu ne</span> ipsum dolor sit amet.
+    </p>
+    <p class="info">
+        Lorem, <span> oniki</span> ipsum dolor.
+    </p>
+    <p>Test Paragraph</p>
+    <a href="#">Home</a>
+</body>
+</html>
