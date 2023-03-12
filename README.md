@@ -10,4 +10,5 @@
 *italic* **bold** ***bolditalic***
 
 [Google](https://google.com)
+---
 ![Tyler Durden](https://media.tenor.com/RSd0SdU4hMAAAAAd/tyler-durden-tyler.gif)
