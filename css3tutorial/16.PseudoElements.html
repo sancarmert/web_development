@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS-Pseudo Element</title>
+    <style>
+
+        .para1{
+            font-size: 1.5em;
+            letter-spacing: 2px;
+            line-height: 1.5em;
+        }
+        .para1::first-line{
+            color: red;
+        }
+        .para1::first-letter{
+            color: blue;
+            font-size: 50px;
+        }
+        .para1::after{
+            content: "Paragraf sonrası  ";
+        }
+
+    
+
+    </style>
+</head>
+<body>
+
+    <p class="para1">
+        Lorem  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea molestias Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non sit iusto error vel, aperiam quas esse natus molestias, omnis dolorem numquam suscipit at, adipisci eos. Laboriosam sed, corrupti sint ut rem assumenda eos natus ad, maxime quod veritatis sequi. Eum. quis fuga dicta id natus. ipsum dolor sit amet.
+    </p>
+    
+</body>
+</html>
