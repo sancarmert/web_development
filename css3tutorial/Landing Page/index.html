@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mert Sancar | Blog</title>
+    <meta name="keywords" content="Python,Java,JavaScript" />
+    <meta
+      name="description"
+      content="Mert Sancar | Blog"
+    />
+    <!-- Fonts Google -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <!-- Tablet -->
+    <link rel="stylesheet" media="(max-width:768px)" href="css/tablet.css" />
+    <link rel="stylesheet" media="(max-width:500px)" href="css/mobile.css" />
+  </head>
+  <body>
+    <header class="bg-dark-blue">
+      <div class="container">
+        <nav id="navbar">
+          <h1 class="heading-small">Mert Sancar</h1>
+
+          <ul>
+            <li><a href="#home">Ana Sayfa</a></li>
+            <li><a href="#training">Sertifikalar</a></li>
+            <li><a href="#courses">Programlama Dilleri</a></li>
+            <li><a href="#contact">İletişim</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="home">
+      <img
+        src="images\ben.jpg"
+        alt="Mert Sancar"
+      />
+
+      <div class="name text-center">
+        <h2 class="heading-big">Mert Sancar</h2>
+        <p>Computer Engineer | Founder of nothing</p>
+      </div>
+
+      <a href="#courses" class="btn btn-primary">Programlama Dillerini Gör</a>
+    </section>
+
+    <section id="training" class="bg-dark-blue">
+      <h3 class="text-center heading-medium">Sertifikalar</h3>
+      <div class="items">
+        <article class="item">
+          <i class="fa fa-pencil-alt"></i>
+          <h3>Yurt İçi Sertifakalar</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum,
+            laboriosam!
+          </p>
+        </article>
+        <article class="item">
+          <i class="fa fa-pencil-alt"></i>
+          <h3>Yurt Dışı Sertifikalar</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum,
+            laboriosam!
+          </p>
+        </article>
+        <article class="item">
+          <i class="fa fa-pencil-alt"></i>
+          <h3>Anlatamam Yani</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum,
+            laboriosam!
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="courses">
+      <h3 class="text-center heading-medium">Programlama Dilleri</h3>
+
+      <div class="container">
+        <div class="courses">
+          <!-- Course 1 -->
+          <div class="course">
+            <div class="course-image">
+              <img src="images/html5_logo.png" alt="HTML5" />
+              <span>İnanızlmaz</span>
+            </div>
+
+            <div class="course-info">
+              <div class="title">
+                Hyper Text Markup Language 5
+              </div>
+              <div class="description">
+                HTML5 is a markup language used for structuring and presenting content on the World Wide Web. It is the fifth and final major HTML version that is a World Wide Web Consortium recommendation. The current specification is known as the HTML Living Standard.
+              </div>
+              <div class="instructor">Mert Sancar,Founder of nothing</div>
+              <div class="rating">4.6 | (19990 Oylama)</div>
+            </div>
+          </div>
+          <!-- Course 2 -->
+          <div class="course">
+            <div class="course-image">
+              <img src="images/css3_logo.png" alt="CSS3" />
+              <span>Mükemmel</span>
+            </div>
+
+            <div class="course-info">
+              <div class="title">
+                Cascading Style Sheets 3
+              </div>
+              <div class="description">
+                Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML (including XML dialects such as SVG, MathML or XHTML). CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.
+              </div>
+              <div class="instructor">Mert Sancar,Founder of nothing</div>
+              <div class="rating">4.6 | (7000 Oylama)</div>
+            </div>
+          </div>
+
+          <!-- Course 3 -->
+          <div class="course">
+            <div class="course-image">
+              <img src="images/js_logo.png" alt="JavaScript" />
+              <span>Dehşet Verici</span>
+            </div>
+
+            <div class="course-info">
+              <div class="title">
+                 JavaScript 
+              </div>
+              <div class="description">
+                JavaScript, often abbreviated as JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. As of 2022, 98% of websites use JavaScript on the client side for webpage behavior, often incorporating third-party libraries.
+              </div>
+              <div class="instructor">Mert Sancar,Founder Of nothing</div>
+              <div class="rating">4.7 </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="contact" class="bg-dark-blue">
+      <div class="contact-form">
+        <form>
+          <h4 class="text-center heading-medium">Bana Ulaşın</h4>
+
+          <div class="form-group">
+            <label for="name">İsim</label>
+            <input
+              type="text"
+              class="form-control"
+              name="name"
+              id="name"
+              placeholder="İsim"
+            />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input
+              type="text"
+              class="form-control"
+              name="email"
+              id="email"
+              placeholder="E-Mail"
+            />
+          </div>
+          <div class="form-group">
+            <label for="message">Mesaj</label>
+            <textarea
+              name="message"
+              id="message"
+              class="form-control"
+              rows="5"
+              placeholder="Mesajınız..."
+            ></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-block">Gönder</button>
+        </form>
+
+        <ul>
+          <li>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
